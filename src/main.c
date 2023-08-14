@@ -127,7 +127,6 @@ activate(GtkApplication *app,
     gtk_box_pack_start(GTK_BOX(buttons_container), button_creator, TRUE, TRUE, 2);
 
     gtk_widget_show_all(window);
-    gtk_main();
 }
 
 char print_menu(void)
